@@ -2,9 +2,15 @@
     margin:0;
     padding:0;
     text-decoration: none;
-    height: 200vh;
 }
 
+header{
+    background-color: aquamarine;
+    position:sticky;
+    top:0;
+    width:100vw;
+    height:10vh;
+}
 #nav-bar{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform:uppercase;
