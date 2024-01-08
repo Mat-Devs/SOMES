@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    height: 200vh;
+}
+
+#nav-bar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform:uppercase;
+    list-style: none;
+    display:flex;
+    position:fixed;
+    flex-wrap:wrap;
+    gap:3vw;
+    margin-top:4vh;
+    right:3vw;
+    font-size: 2vh;
+    letter-spacing: 2px;
+  }
+  
+  a{
+      text-align: right;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+  }
+  
+  #about{
+    transition-duration: 0.2s;
+  }
+  
+  #academics{
+    transition-duration: 0.2s;
+  }
+  
+  #events{
+    transition-duration: 0.2s;
+  }
+  #contact{
+    transition-duration: 0.2s;
+  }
+  #nav-bar #about:hover {
+    margin-top: -0.5vh;
+    transition-duration: 0.2s;
+  }
+  #nav-bar #academics:hover {
+    margin-top: -0.5vh;
+    transition-duration: 0.2s;
+  }
+  #nav-bar #events:hover {
+    margin-top: -0.5vh;
+    transition-duration: 0.2s;
+  }
+  #nav-bar #contact:hover {
+    margin-top: -0.5vh;
+    transition-duration: 0.2s;
+  }
