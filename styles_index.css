@@ -4,13 +4,21 @@
     text-decoration: none;
 }
 
+body{
+  background-color: #c8c8f1;
+}
 header{
-    background-color:#3C3C68;
+    background-color:#e15036;
     position:sticky;
     top:0;
     width:100vw;
     height:10vh;
 }
+
+/* #header{
+  display: flex;
+} */
+
 #nav-bar{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform:uppercase;
@@ -21,14 +29,16 @@ header{
     gap:3vw;
     margin-top:4vh;
     right:3vw;
-    font-size: 2vh;
+    font-size: 2vmin;
     letter-spacing: 2px;
   }
   
   a{
-      text-align: right;
-      color: #fefefe;
-      text-decoration: none;
+    font-weight: 300;
+    text-shadow: #000000 0px 0px 5px;
+    text-align: right;
+    color: #ffffff;
+    text-decoration: none;
   }
   
   #about{
@@ -62,6 +72,19 @@ header{
     transition-duration: 0.2s;
   }
 
-  .nav-bar-logo {
-    
+/*   .nav-bar-logo {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+  } */
+
+  .news-card{    
+    display:flex;
+  }
+  #news-card-1{
+    margin: 2.5% 2.5% ;
+    width: 30vw;
+    height: 20vh;
+    background-color: #131139;
+    border-radius: 2vh;
   }
