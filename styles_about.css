@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: aquamarine;
+    background-color:#3C3C68;
     position:sticky;
     top:0;
     width:100vw;
@@ -27,11 +27,11 @@ header{
   
   a{
       text-align: right;
-      color: rgb(0, 0, 0);
+      color: #fefefe;
       text-decoration: none;
   }
   
-  #about{
+  #home{
     transition-duration: 0.2s;
   }
   
@@ -45,7 +45,7 @@ header{
   #contact{
     transition-duration: 0.2s;
   }
-  #nav-bar #about:hover {
+  #nav-bar #home:hover {
     margin-top: -0.5vh;
     transition-duration: 0.2s;
   }
