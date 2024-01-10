@@ -78,13 +78,32 @@ header{
     vertical-align: middle;
   } */
 
-  .news-card{    
-    display:flex;
+  .news-cards{    
+    display: flex;
+    flex-wrap: nowrap;
   }
   #news-card-1{
-    margin: 2.5% 2.5% ;
-    width: 30vw;
-    height: 20vh;
+    width: 10vw;
+    height: 10vh;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    /* border: 1px solid rgba(255, 255, 255, 1); */
+  }
+/*   #news-card-2{
+    color:#c8c8f1;
+    margin: 5% 5%;
+    width: 25vw;
+    height: 30vh;
     background-color: #131139;
     border-radius: 2vh;
   }
+  #news-card-3{
+    color:#c8c8f1;
+    margin: 5% 5%;
+    width: 25vw;
+    height: 30vh;
+    background-color: #131139;
+    border-radius: 2vh;
+  } */
+
