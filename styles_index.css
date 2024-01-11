@@ -8,6 +8,7 @@ body{
   background-color: #c8c8f1;
 }
 header{
+  z-index: 1;
     background-color:#e15036;
     position:sticky;
     top:0;
@@ -86,8 +87,8 @@ header{
   }
    
   .img-box img{
-    width:40vw;
-    height: auto;
+    height: 80vh;
+    width: auto;
   }
   
   .btn{
@@ -98,7 +99,7 @@ header{
     cursor: pointer;	
     border: none;
     margin:auto;
-    padding:auto;
+    padding:20vh 10vw;
   }
 
   /* News Cards */
