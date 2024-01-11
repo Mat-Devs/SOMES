@@ -81,10 +81,12 @@ header{
   .news-cards{    
     display: flex;
     flex-wrap: wrap;
+    width:80vw;
+    margin:0 auto;
   }
   #news-card-1{
-    width: 30vw;
-    height: 50vh;
+    width: 35vw;
+    height: 30vh;
     background: rgba(255, 255, 255, 0.2);
     margin:2.5vh auto;
     border-radius: 16px;
@@ -92,9 +94,9 @@ header{
     /* border: 1px solid rgba(255, 255, 255, 1); */
   }
   #news-card-2{
-    width: 30vw;
+    width: 35vw;
     margin:2.5vh auto;
-    height: 50vh;
+    height: 30vh;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -102,8 +104,8 @@ header{
   }
   #news-card-3{
     margin:2.5vh auto;
-    width: 30vw;
-    height: 50vh;
+    width: 35vw;
+    height: 30vh;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -111,8 +113,8 @@ header{
   }
 
   #news-card-4{
-    width: 30vw;
-    height: 50vh;
+    width: 35vw;
+    height: 30vh;
     background: rgba(255, 255, 255, 0.2);
     margin:2.5vh auto;
     border-radius: 16px;
@@ -120,9 +122,9 @@ header{
     /* border: 1px solid rgba(255, 255, 255, 1); */
   }
   #news-card-5{
-    width: 30vw;
+    width: 35vw;
     margin:2.5vh auto;
-    height: 50vh;
+    height: 30vh;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -130,8 +132,8 @@ header{
   }
   #news-card-6{
     margin:2.5vh auto;
-    width: 30vw;
-    height: 50vh;
+    width: 35vw;
+    height: 30vh;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
