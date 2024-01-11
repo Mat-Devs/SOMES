@@ -19,6 +19,7 @@ header{
   display: flex;
 } */
 
+/* Header */
 #nav-bar{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform:uppercase;
@@ -78,30 +79,29 @@ header{
     vertical-align: middle;
   } */
 
+  /* Slideshow */
   .slider{
-    margin:50px auto;
-    width:50%;
+    margin:5vh auto;
+    display: flex;
   }
    
   .img-box img{
-    width:100%;
+    width:40vw;
+    height: auto;
   }
   
   .btn{
-    border:none;
-    outline:none;
-    background:#888;
-    padding:10px 30px;
-    font-size: 20px;
-    color:#ddd;
-    cursor: pointer;
-    margin:10px auto;			 
-  }
-  
-  .btn:hover{
-    background: #111;
+    font-size: 50px;
+    color:rgba(0, 0, 0, 0.2);
+    background-color:rgba(0, 0, 0, 0); 
+    transition-duration: 0.2s;
+    cursor: pointer;	
+    border: none;
+    margin:auto;
+    padding:auto;
   }
 
+  /* News Cards */
   .news-cards{    
     display: flex;
     flex-wrap: wrap;
@@ -175,29 +175,35 @@ header{
 #news-card-1:hover{
   transform:scale(0.98);
   transition-duration: 0.2s;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 #news-card-2:hover{
   transform:scale(0.98);
   transition-duration: 0.2s;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 #news-card-3:hover{
   transform:scale(0.98);
   transition-duration: 0.2s;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 #news-card-4:hover{
   transform:scale(0.98);
   transition-duration: 0.2s;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 #news-card-5:hover{
   transform:scale(0.98);
   transition-duration: 0.2s;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 #news-card-6:hover{
   transform:scale(0.98);
   transition-duration: 0.2s;
+  background: rgba(255, 255, 255, 0.6);
 }
