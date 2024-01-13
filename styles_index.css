@@ -9,11 +9,11 @@ body{
 }
 header{
   z-index: 1;
-    background-color:#e15036;
-    position:sticky;
-    top:0;
-    width:100vw;
-    height:10vh;
+  background-color:#e15036;
+  position:sticky;
+  top:0;
+  width:100vw;
+  height:10vh;
 }
 
 /* #header{
@@ -87,7 +87,7 @@ header{
   }
    
   .img-box img{
-    height: 80vh;
+    height: 60vmin;
     width: auto;
   }
   
@@ -208,3 +208,4 @@ header{
   transition-duration: 0.2s;
   background: rgba(255, 255, 255, 0.6);
 }
+
