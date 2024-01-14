@@ -218,6 +218,8 @@ footer{
   height:10vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform:uppercase;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 .footer-company-name{
