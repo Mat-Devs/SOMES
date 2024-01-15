@@ -220,6 +220,7 @@ footer{
   text-transform:uppercase;
   display:flex;
   flex-wrap:wrap;
+  height:20vmin;
 }
 
 .footer-company-name{
