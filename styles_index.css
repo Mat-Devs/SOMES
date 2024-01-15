@@ -258,20 +258,6 @@ footer{
 
 /* Footer links */
 
-.footer-distributed .footer-links{
-  color:  #ffffff;
-  margin: 20px 0 12px;
-  padding: 0;
-}
-
-.footer-distributed .footer-links a{
-  display:inline-block;
-  line-height: 1.8;
-  font-weight:400;
-  text-decoration: none;
-  color:  inherit;
-}
-
 .footer-distributed .footer-company-name{
   color:  #ffffff;
   font-size: 14px;
@@ -288,13 +274,13 @@ footer{
 .footer-distributed .footer-right i{
   background-color:  #33383b;
   color: #ffffff;
-  font-size: 25px;
-  width: 38px;
-  height: 38px;
+  font-size: 18px;
+  width: 28px;
+  height:28px;
   border-radius: 50%;
   text-align: center;
-  line-height: 42px;
-  margin: 10px 15px;
+  line-height: 30px;
+  /* margin: 10px 15px; */
   vertical-align: middle;
 }
 
