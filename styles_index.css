@@ -272,16 +272,18 @@ footer{
 }
 
 .footer-distributed .footer-right i{
-  background-color:  #33383b;
+  background-color:  #2b2e30;
   color: #ffffff;
   font-size: 18px;
   width: 28px;
   height:28px;
   border-radius: 50%;
   text-align: center;
-  line-height: 30px;
+  line-height: 28px;
   /* margin: 10px 15px; */
   vertical-align: middle;
+  padding: auto;
+  margin:auto;
 }
 
 .footer-distributed .footer-right i.fa-envelope{
