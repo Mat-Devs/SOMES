@@ -214,8 +214,9 @@ footer{
   z-index: 1;
   background-color:#3a3a3a;
   position:sticky;
+  top:0;
   width:100vw;
-  height:10vh;
+  height:40vh;
 }
 
 /* #header{
