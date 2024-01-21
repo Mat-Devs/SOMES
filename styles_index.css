@@ -212,29 +212,22 @@ header{
 
 footer{
   z-index: 1;
-  background-color:#3a3a3a;
+  background-color:#2d2d2d;
   position:sticky;
   top:0;
   width:100vw;
-  height:40vh;
+  height:50vh;
 }
 
 /* #header{
   display: flex;
 } */
 
-/* Header */
-#nav-bar{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform:uppercase;
-    list-style: none;
-    display:flex;
-    position:fixed;
-    flex-wrap:wrap;
-    gap:3vw;
-    margin-top:4vh;
-    right:3vw;
-    font-size: 2vmin;
-    letter-spacing: 2px;
-  }
-  
+.bottomline{
+  text-align:center;
+}
+
+.bottomline p{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
