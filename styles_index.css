@@ -29,9 +29,9 @@ header{
     position:fixed;
     flex-wrap:wrap;
     gap:3vw;
-    margin-top:5vh;
+    margin-top:4.5vh;
     right:8vw;
-    font-size: 2vmin;
+    font-size: 2.1vmin;
     letter-spacing: 2px;
   }
   
@@ -244,9 +244,11 @@ footer{
 
 .SOMES_Logo{
   position:fixed;
+  top:2.5vh;
+  left:5vw;
 }
 
 .SOMES_Logo img{
-  width:7vw;
-  height:15vh;
+  width:10vw;
+  height:6.5vh;
 }
