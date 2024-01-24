@@ -251,6 +251,21 @@ footer{
   height:6.5vh;
 }
 
-#footer-socials{
+.socials{
+  z-index: 1;
+  position:sticky;
+  width:99vw;
+  height:12vh;
+  align-items: center;
+}
 
+
+#footer-socials{
+  text-align: center;
+}
+
+#footer-socials a{
+  display: flexbox;
+  padding: 0.5vw;
+  font-size:xx-large;
 }
