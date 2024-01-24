@@ -264,10 +264,26 @@ footer{
 #footer-socials{
   position: relative;
   text-align: center;
-  margin-top: 10vw;
+  margin-top: 2vw;
 }
 
 #footer-socials a{
   padding: 1.5vw;
   font-size:xx-large;
+}
+
+#somes{
+  text-align: center;
+  font-size:xx-large;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#somes p {
+  margin-top: 5vw;
+}
+#somes p span{
+  color: coral;
 }
