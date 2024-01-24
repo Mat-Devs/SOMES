@@ -228,6 +228,7 @@ footer{
   width: 99vw;
   position:absolute;
   bottom:0;
+  z-index:1;
 }
 
 .bottomline p{
@@ -261,11 +262,12 @@ footer{
 
 
 #footer-socials{
+  position: relative;
   text-align: center;
+  margin-top: 10vw;
 }
 
 #footer-socials a{
-  display: flexbox;
-  padding: 0.5vw;
+  padding: 1.5vw;
   font-size:xx-large;
 }
