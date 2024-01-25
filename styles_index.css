@@ -13,7 +13,7 @@ header{
   position:sticky;
   top:0;
   width:99vw;
-  height:12vh;
+  height:12vmin;
 }
 
 /* #header{
@@ -243,13 +243,13 @@ footer{
 
 .SOMES_Logo{
   position:fixed;
-  top:2.5vh;
+  top:2.7vh;
   left:5vw;
 }
 
 .SOMES_Logo img{
-  width:10vw;
-  height:6.5vh;
+  width:20vmin;
+  height:auto;
 }
 
 .socials{
@@ -278,12 +278,33 @@ footer{
   text-transform: uppercase;
   color: #ffffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 #somes p {
   margin-top: 5vw;
 }
+
 #somes p span{
   color: coral;
+}
+.footer-bar{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+  position:sticky;
+  width:99vw;
+  height:12vh;
+  align-items: center;
+}
+
+#footer-bar{
+  position: relative;
+  text-align: center;
+  margin-top: 2vw;
+}
+
+#footer-bar li{
+  color:#ffffff;
+  padding: 1.5vw;
+  font-size:large;
+  margin:0;
 }
