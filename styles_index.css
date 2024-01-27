@@ -256,16 +256,15 @@ footer{
   z-index: 1;
   position:sticky;
   width:99vw;
-  height:12vh;
+  height:5vh;
   align-items: center;
-  margin-top: 8vh;
+  margin-top: 1vh;
 }
 
 
 #footer-socials{
   position: relative;
   text-align: center;
-  margin-top: 2vw;
 }
 
 #footer-socials a{
@@ -283,6 +282,7 @@ footer{
 
 #somes p {
   padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 
 #somes p span{
@@ -298,13 +298,11 @@ footer{
 }
 
 #footer-bar{
-  position: relative;
   text-align: center;
 }
 
-#footer-bar li{
+#footer-bar p{
   color:#ffffff;
-  padding: 1.5vw;
   font-size:large;
   margin:0;
 }
@@ -313,6 +311,7 @@ footer{
   color: #ffffff;
   list-style: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
   text-transform:uppercase;
   margin-top: 2vh;
   display:flex;
