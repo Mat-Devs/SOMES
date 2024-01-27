@@ -315,7 +315,9 @@ footer{
   list-style: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform:uppercase;
+  top:5vh;
   display:flex;
-  margin-top:4.5vh;
   font-size: 2.1vmin;
+  gap: 20vw;
+  justify-content: center;
 }
