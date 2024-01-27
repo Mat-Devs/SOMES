@@ -321,13 +321,13 @@ footer{
 }
 
 #footer-bar div{
-  width:10vw;
+  width:15vw;
   /* text-wrap: wrap; */
 }
 #footer-bar div p{
   display:flexbox;
   position:relative;
-  width:10vw;
+  width:15vw;
   /* width:10vw; */
   word-break:break-all;
 }
