@@ -326,6 +326,8 @@ footer{
 }
 #footer-bar div p{
   display:flexbox;
+  position:relative;
+  width:10vw;
   /* width:10vw; */
-  text-wrap: wrap;
+  word-break:break-all;
 }
