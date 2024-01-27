@@ -258,6 +258,7 @@ footer{
   width:99vw;
   height:12vh;
   align-items: center;
+  margin-top: 8vh;
 }
 
 
@@ -281,7 +282,7 @@ footer{
 }
 
 #somes p {
-  margin-top: 5vw;
+  padding-top: 2vw;
 }
 
 #somes p span{
@@ -299,7 +300,6 @@ footer{
 #footer-bar{
   position: relative;
   text-align: center;
-  margin-top: 2vw;
 }
 
 #footer-bar li{
@@ -310,14 +310,13 @@ footer{
 }
 
 #footer-bar{
-  z-index: 10;
   color: #ffffff;
   list-style: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform:uppercase;
-  top:5vh;
+  margin-top: 2vh;
   display:flex;
   font-size: 2.1vmin;
-  gap: 20vw;
+  gap: 15vw;
   justify-content: center;
 }
