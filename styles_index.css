@@ -319,3 +319,13 @@ footer{
   gap: 15vw;
   justify-content: center;
 }
+
+#footer-bar div{
+  width:10vw;
+  /* text-wrap: wrap; */
+}
+#footer-bar div p{
+  display:flexbox;
+  /* width:10vw; */
+  text-wrap: wrap;
+}
