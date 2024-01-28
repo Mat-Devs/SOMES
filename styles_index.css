@@ -268,7 +268,7 @@ footer{
 }
 
 #footer-socials a{
-  padding: 1.5vw;
+  padding: 1.5vw 1vw;
   font-size:xx-large;
 }
 
@@ -327,6 +327,7 @@ footer{
 #footer-bar div p{
   display:flexbox;
   position:relative;
+  
   width:15vw;
   /* width:10vw; */
   word-break:break-all;
