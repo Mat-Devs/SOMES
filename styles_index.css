@@ -312,7 +312,7 @@ footer{
   list-style: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: relative;
-  text-transform:uppercase;
+  
   margin-top: 2vh;
   display:flex;
   font-size: 2.1vmin;
@@ -331,4 +331,9 @@ footer{
   width:15vw;
   /* width:10vw; */
   word-break:break-all;
+}
+
+#uppercase-p{
+  text-transform:uppercase;
+  padding-bottom: 10px;
 }
