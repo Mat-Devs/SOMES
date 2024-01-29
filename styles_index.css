@@ -324,6 +324,11 @@ footer{
   width:15vw;
   /* text-wrap: wrap; */
 }
+
+#address-p{
+  width:50vw;
+}
+
 #footer-bar div p{
   display:flexbox;
   position:relative;
