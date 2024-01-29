@@ -269,12 +269,12 @@ footer{
 
 #footer-socials a{
   padding: 1.5vw 1vw;
-  font-size:xx-large;
+  font-size:4vmin;
 }
 
 #somes{
   text-align: center;
-  font-size:xx-large;
+  font-size:5vmin;
   text-transform: uppercase;
   color: #ffffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -303,7 +303,7 @@ footer{
 
 #footer-bar p{
   color:#ffffff;
-  font-size:large;
+  font-size:2.5vmin;
   margin:0;
 }
 
