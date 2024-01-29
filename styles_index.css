@@ -325,18 +325,14 @@ footer{
   /* text-wrap: wrap; */
 }
 
-#address-p{
-  width:50vw;
-}
-
 #footer-bar div p{
   display:flexbox;
   position:relative;
   
   width:15vw;
-  /* width:10vw; */
   word-break:break-all;
 }
+
 
 #uppercase-p{
   text-transform:uppercase;
