@@ -26,18 +26,24 @@ header{
   position:sticky;
   width:50vw;
   text-align:right;
-  height:5vh;
-  background-color: #000000;  
+  height:12vmin;
   align-items: center;
+  transform: translateX(75%);
 }
 .nav-bar{
   color: #ffffff;
   list-style: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  position: flexbox;
+  position: relative;
+
+  /* vertically align hack */
+  top:50%;
+  transform:translateY(-50%);
+  /*  */
+
   display:flex;
   font-size: 2vmin;
-  gap: 3vw;
+  gap: 4vw;
   padding-right:2vw;
   align-items: center;
   justify-content: right;
@@ -80,6 +86,17 @@ header{
  .nav-bar #contact:hover {
     margin-top: -0.3vh;
     transition-duration: 0.2s;
+  }
+
+  .SOMES_Logo{
+    background:#ffffff;
+    margin-right: 200px;
+    padding:0;
+  }
+  
+  .SOMES_Logo img{
+    width:20vmin;
+    height:auto;
   }
 
 /*   .nav-bar-logo {
@@ -251,16 +268,7 @@ footer{
   color: white;
 }
 
-.SOMES_Logo{
-  position:fixed;
-  top:2.7vh;
-  left:5vw;
-}
 
-.SOMES_Logo img{
-  width:20vmin;
-  height:auto;
-}
 
 .socials{
   z-index: 1;
