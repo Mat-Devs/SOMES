@@ -48,7 +48,6 @@ header{
   gap: 3vw;
   padding-right:2vw;
   align-items: center;
-  justify-content: right;
 }
   
 .nav-bar a{
@@ -239,7 +238,7 @@ footer{
   position:sticky;
   top:0;
   width:99vw;
-  height:50vh;
+  height:38vh;
 }
 
 /* #header{
@@ -274,7 +273,6 @@ footer{
   width:99vw;
   height:5vh;
   align-items: center;
-  margin-top: 5vh;
 }
 
 
@@ -284,33 +282,18 @@ footer{
 }
 
 #footer-socials a{
-  padding: 1.5vw 1vw;
+  color:white;
+  padding: 1vw 1vw;
   font-size:4vmin;
 }
 
-#somes{
-  text-align: center;
-  font-size:5vmin;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#somes p {
-  padding-top: 2vw;
-  padding-bottom: 2vw;
-}
-
-#somes p span{
-  color: coral;
-}
 .footer-bar{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   z-index: 1;
-  position:sticky;
+  position:relative;
   width:99vw;
-  height:12vh;
-  align-items: center;
+  height:15vh;
+  padding-top:3%;
 }
 
 #footer-bar p{
@@ -324,8 +307,6 @@ footer{
   color: #ffffff;
   list-style: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  position: relative;  
-  margin-top: 2vh;
   display:flex;
   font-size: 2.1vmin;
   gap: 15vw;
