@@ -105,6 +105,8 @@ header{
   .slider{
     margin:5vh auto;
     display: flex;
+    width:99vw;
+    justify-content: center;
   }
    
   .img-box img{
@@ -115,12 +117,12 @@ header{
   .btn{
     font-size: 50px;
     color:rgba(0, 0, 0, 0.2);
-    background-color:rgba(0, 0, 0, 0); 
+    background-color:rgba(0, 0, 0); 
     transition-duration: 0.2s;
     cursor: pointer;	
     border: none;
-    margin:auto;
-    padding:20vh 10vw;
+    margin:0;
+    padding:0 1vw;
   }
 
   /* News Cards */
