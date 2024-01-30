@@ -4,19 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOMES</title>
-    <link href="styles_about.css" rel="stylesheet">
+    <link href="styles_index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <div id="header">
-            <ul id="nav-bar">
-                <li id="home"><a href="index.html">Home</a></li>
-                <li id="about"><a href="about.html">About</a></li>
-                <li id="academics"><a href="academics.html">Academics</a></li>
-                <li id="events"><a href="events.html">Events</a></li>
-                <li id="contact"><a href="contact.html">Contact</a></li>
-            </ul>
+        
+        <div id="header">            
+            <!-- <img class="nav-bar-logo" src="resources/Somes_logo.jpg" alt="SOMES Logo"> -->
+            <div id="spread-header">
+                <div class="SOMES_Logo">
+                    <img src="resources/Somes_logo.jpg" alt="Somes logo">
+                </div>
+                <ul class="nav-bar">
+                    <li id="home"><a href="index.html">Home</a></li>
+                    <li id="about"><a href="about.html">About</a></li>
+                    <li id="academics"><a href="academics.html">Academics</a></li>
+                    <li id="events"><a href="events.html">Events</a></li>
+                    <li id="contact"><a href="contact.html">Contact</a></li>
+                </ul>
+                
+            </div>
         </div>
     </header>
+
+    <div class="slider">
+        
+        <button class="btn-1" onclick="prev()"><</button>
+
+        <div class="img-box">
+            <img src="resources/1.png" class="slider-img" alt="img 01">
+        </div>
+
+        <button class="btn-2" onclick="next()">></button>
+    </div>
+
+    <div class="news-cards">
+        <div id="news-card-1">
+            <p>News Card 01</p>
+        </div>
+        <div id="news-card-2">
+            <p>News Card 02</p>
+        </div>
+        <div id="news-card-3">
+            <p>News Card 03</p>
+        </div>
+        <div id="news-card-4">
+            <p>News Card 04</p>
+        </div>
+        <div id="news-card-5">
+            <p>News Card 05</p>
+        </div>
+        <div id="news-card-6">
+            <p>News Card 06</p>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer">
+
+            <div class="footer-bar">
+                <ul id="footer-bar">
+                    <div>
+                        <p id="uppercase-p">Contact</p>
+                        <p>+94123456789</p>
+                    </div>
+                    <div>
+                        <p id="uppercase-p">Email</p>
+                        <p>somes@gmail.com</p>
+                    </div>
+                    <div>
+                        <p id="uppercase-p">Address</p>
+                        <p> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                        </p>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="socials">
+                <ul id="footer-socials">
+                    <a href="www.facebook.com"><i class="fa fa-facebook-square"></i></a>
+                    <a href="www.youtube.com"><i class="fa fa-youtube-play"></i></a>
+                    <a href="www.linkedin.com"><i class="fa fa-linkedin-square"></i></a>
+                </ul>
+            </div>
+
+            <div class="bottomline">
+                <p>Copyright © 2024. SOMES. All Rights Reserved.</p>
+            </div>            
+        </div>
+    </footer>
+    <script src="index.js"></script>
 </body>
 </html>
