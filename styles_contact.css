@@ -6,10 +6,9 @@
 }
 
 body{
-  /* width: 99vmin; */
+  /* width: 100vmin; */
   background-color: #c8c8f1;
-  width:100vw;
-  height:100vh;
+  overflow-x: hidden;
 }
 header{
   z-index: 1;

@@ -7,8 +7,10 @@
 
 body{
   /* width: 100vmin; */
-  background-color: #c8c8f1;
+  background-color: #c8c8f1;  
+  overflow-x: hidden;
 }
+
 header{
   z-index: 1;
   background-color:#131139;
