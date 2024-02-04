@@ -12,6 +12,7 @@ body{
 }
 header{
   z-index: 1;
+  display: ;
   background-color:#131139;
   position:sticky;
   top:0;
