@@ -74,19 +74,19 @@ header{
     transition-duration: 0.2s;
   }
  .nav-bar #home:hover {
-    margin-top: -0.3vh;
+    margin-top: -0.5vh;
     transition-duration: 0.2s;
   }
  .nav-bar #academics:hover {
-    margin-top: -0.3vh;
+    margin-top: -0.5vh;
     transition-duration: 0.2s;
   }
  .nav-bar #events:hover {
-    margin-top: -0.3vh;
+    margin-top: -0.5vh;
     transition-duration: 0.2s;
   }
  .nav-bar #contact:hover {
-    margin-top: -0.3vh;
+    margin-top: -0.5vh;
     transition-duration: 0.2s;
   }
   
