@@ -253,7 +253,7 @@ header{
 footer{
   z-index: 1;
   background-color:#232323;
-  position:sticky;
+  position:relative;
   top:0;
   width:100vw;
   height:38vh;
