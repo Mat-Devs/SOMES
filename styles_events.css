@@ -98,7 +98,7 @@ header{
 footer{
   z-index: 1;
   background-color:#232323;
-  position:fixed;
+  position:relative;
   bottom:0;
   width:100vw;
   height:38vh;
