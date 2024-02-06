@@ -15,7 +15,7 @@ header{
   position:sticky;
   top:0;
   width:100vw;
-  height:12vmin;
+  height:10vmin;
 }
 
 /* Header */
@@ -23,13 +23,13 @@ header{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   z-index: 1;
   position:sticky;
-  width:88vw;
+  width:84vw;
   text-align:right;
-  height:12vmin;
+  height:10vmin;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding:0 5vw ;
+  padding:0 7vw ;
 }
 
 .nav-bar{
@@ -44,7 +44,7 @@ header{
   /*  */
 
   display:flex;
-  font-size: 2.5vmin;
+  font-size: 2vmin;
   gap: 3vw;
   padding-right:2vw;
   align-items: center;
@@ -90,7 +90,7 @@ header{
   }
   
   .SOMES_Logo img{
-    width:20vmin;
+    width:17vmin;
     height:auto;
   }
 
