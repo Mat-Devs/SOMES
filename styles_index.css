@@ -254,7 +254,7 @@ footer{
   position:relative;
   top:0;
   width:100vw;
-  height:30vh;
+  height:32vh;
 }
 
 /* #header{
@@ -299,7 +299,7 @@ footer{
 }
 
 #yt{
-  font-size: 3.6vmin;
+  font-size: 3.5vmin;
 }
 
 #footer-socials a{
@@ -313,13 +313,13 @@ footer{
   z-index: 1;
   position:relative;
   width:100vw;
-  height:12vh;
+  height:14vh;
   padding-top:3%;
 }
 
 #footer-bar p{
   color:#ffffff;
-  font-size:2.2vmin;
+  font-size:2.3vmin;
   margin:0;
 }
 
