@@ -15,7 +15,7 @@ background-color:#131139;
 position:sticky;
 top:0;
 width:100vw;
-height:10vmin;
+height:9vmin;
 }
 
 /* Header */
@@ -25,7 +25,7 @@ z-index: 1;
 position:sticky;
 width:84vw;
 text-align:right;
-height:10vmin;
+height:9vmin;
 align-items: center;
 display: flex;
 justify-content: space-between;
@@ -196,5 +196,5 @@ footer{
 
 .uppercase-p{
   text-transform:uppercase;
-  padding-bottom: 10px;
+  padding-bottom: 1vh;
 }
