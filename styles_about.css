@@ -15,7 +15,7 @@ header{
   position:sticky;
   top:0;
   width:100vw;
-  height:10vmin;
+  height:9vmin;
 }
 
 /* Header */
@@ -25,7 +25,7 @@ header{
   position:sticky;
   width:84vw;
   text-align:right;
-  height:10vmin;
+  height:9vmin;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -101,7 +101,7 @@ footer{
   position:relative;
   top:0;
   width:100vw;
-  height:32vh;
+  height:31vh;
 }
 
 /* #header{
@@ -160,13 +160,13 @@ footer{
   z-index: 1;
   position:relative;
   width:100vw;
-  height:14vh;
+  height:12vh;
   padding-top:3%;
 }
 
 #footer-bar p{
   color:#ffffff;
-  font-size:2.3vmin;
+  font-size:2.1vmin;
   margin:0;
 }
 
@@ -196,5 +196,5 @@ footer{
 
 .uppercase-p{
   text-transform:uppercase;
-  padding-bottom: 10px;
+  padding-bottom: 1vh;
 }
