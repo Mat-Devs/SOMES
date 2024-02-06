@@ -1,99 +1,99 @@
 *{
-    margin:0;
-    padding:0;
-    text-decoration: none;
-
+  margin:0;
+  padding:0;
+  text-decoration: none;
 }
 
 body{
-  /* width: 100vmin; */
-  background-color: #c8c8f1;
-  overflow-x: hidden;
+/* width: 100vmin; */
+background-color: #c8c8f1;
+overflow-x: hidden;
 }
 header{
-  z-index: 1;
-  background-color:#131139;
-  position:sticky;
-  top:0;
-  width:100vw;
-  height:12vmin;
+z-index: 1;
+background-color:#131139;
+position:sticky;
+top:0;
+width:100vw;
+height:10vmin;
 }
 
 /* Header */
 #spread-header{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  z-index: 1;
-  position:sticky;
-  width:88vw;
-  text-align:right;
-  height:12vmin;
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  padding:0 5vw ;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+z-index: 1;
+position:sticky;
+width:84vw;
+text-align:right;
+height:10vmin;
+align-items: center;
+display: flex;
+justify-content: space-between;
+padding:0 7vw ;
 }
 
 .nav-bar{
-  color: #ffffff;
-  list-style: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  position: relative;
+color: #ffffff;
+list-style: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+position: relative;
 
-  /* vertically align hack */
-  /* top:50%;
-  transform:translateY(-50%); */
-  /*  */
+/* vertically align hack */
+/* top:50%;
+transform:translateY(-50%); */
+/*  */
 
-  display:flex;
-  font-size: 2.5vmin;
-  gap: 3vw;
-  padding-right:2vw;
-  align-items: center;
+display:flex;
+font-size: 2vmin;
+gap: 3vw;
+padding-right:2vw;
+align-items: center;
 }
-  
+
 .nav-bar a{
-    font-weight: 400;
-    text-shadow: #000000 0px 0px 5px;
-    text-align: right;
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  #about{
-    transition-duration: 0.2s;
-  }
-  
-  #academics{
-    transition-duration: 0.2s;
-  }
-  
-  #home{
-    transition-duration: 0.2s;
-  }
-  #contact{
-    transition-duration: 0.2s;
-  }
- .nav-bar #about:hover {
-    margin-top: -0.5vh;
-    transition-duration: 0.2s;
-  }
- .nav-bar #academics:hover {
-    margin-top: -0.5vh;
-    transition-duration: 0.2s;
-  }
- .nav-bar #home:hover {
-    margin-top: -0.5vh;
-    transition-duration: 0.2s;
-  }
- .nav-bar #contact:hover {
-    margin-top: -0.5vh;
-    transition-duration: 0.2s;
-  }
-  
-  .SOMES_Logo img{
-    width:20vmin;
-    height:auto;
-  }
+  font-weight: 400;
+  text-shadow: #000000 0px 0px 5px;
+  text-align: right;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#home{
+  transition-duration: 0.2s;
+}
+
+#academics{
+  transition-duration: 0.2s;
+}
+
+#about{
+  transition-duration: 0.2s;
+}
+#contact{
+  transition-duration: 0.2s;
+}
+.nav-bar #home:hover {
+  margin-top: -0.5vh;
+  transition-duration: 0.2s;
+}
+.nav-bar #academics:hover {
+  margin-top: -0.5vh;
+  transition-duration: 0.2s;
+}
+.nav-bar #about:hover {
+  margin-top: -0.5vh;
+  transition-duration: 0.2s;
+}
+.nav-bar #contact:hover {
+  margin-top: -0.5vh;
+  transition-duration: 0.2s;
+}
+
+.SOMES_Logo img{
+  width:17vmin;
+  height:auto;
+}
+
 
   footer{
     z-index: 1;
