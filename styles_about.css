@@ -135,7 +135,6 @@ footer{
   z-index: 1;
   position:sticky;
   width:100vw;
-  height:2vh;
   align-items: center;
 }
 
@@ -145,13 +144,35 @@ footer{
   text-align: center;
 }
 
+#fb{
+  transition-duration: 0.2s;
+}
+#fb:hover{
+  color:#316FF6;  
+  transition-duration: 0.2s;
+}
+#ld{
+  transition-duration: 0.2s;
+}
+#ld:hover{
+  color:#0077B5;  
+  transition-duration: 0.2s;
+}
 #yt{
-  font-size: 3.5vmin;
+  transition-duration: 0.2s;
+}
+#yt-i{
+  font-size: 4vmin;
+}
+
+#yt:hover{
+  color:#CD201F;  
+  transition-duration: 0.2s;
 }
 
 #footer-socials a{
   color:white;
-  font-size:3.3vmin;
+  font-size:4vmin;
   padding: 0vw 0.7vw;
 }
 
@@ -177,19 +198,19 @@ footer{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display:flex;
   font-size: 1vmin;
-  gap: 1vw;
+  letter-spacing: 0.1vw;
   justify-content: center;
 }
 
 #footer-bar div{
-  width:25vw;
-  /* text-wrap: wrap; */
+  width:26vw;
+  text-align: center;
 }
 
 #footer-bar div p{
   display:flexbox;
   position:relative;  
-  width:25vw;
+  width:26vw;
   word-break:break-all;
 }
 
@@ -197,4 +218,7 @@ footer{
 .uppercase-p{
   text-transform:uppercase;
   padding-bottom: 1vh;
+  letter-spacing: 0.2vw;
 }
+
+
