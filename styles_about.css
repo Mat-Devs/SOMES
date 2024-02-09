@@ -94,6 +94,19 @@ header{
     height:auto;
   }
 
+
+
+/* tree */
+#tree{
+  width:100vw;
+  height:100vh;
+}
+
+
+
+
+
+
   
 footer{
   z-index: 1;
