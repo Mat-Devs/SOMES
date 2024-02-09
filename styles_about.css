@@ -199,9 +199,19 @@ header{
 	border-color: #94a0b4;
 }
 
+.container-1 .container-2 .container-3 .container-4{
+  width:48vw;
+  height:90vh;
+}
 
+h2{
+  text-align: center;
+}
 
-
+#container-holder{
+  display:flex;
+  flex-wrap: wrap;
+}
 
 
   
