@@ -101,16 +101,15 @@ header{
 
 /* tree */
 .container{
-
-
+  margin: 5vh 0 5vh 0 ;
 }
 
 .tree {
 	width: 100%;
 	height: auto;
 	text-align: center;  
-	font-family: 'Poppins', sans-serif;
 }
+
 .tree ul {
 	padding-top: 20px;
 	position: relative;
@@ -171,13 +170,11 @@ header{
 }
 
 .tree li a {
-	border: 3px solid rgb(204, 204, 204,0);
+	border: 3px solid #94a0b4;
 	padding: 10px;
 	display: inline-grid;
-	border-radius: 5px;
-	text-decoration-line: none;
-	border-radius: 5px;
-	transition: .5s;
+	border-radius: 20px;
+	transition: .2s;
 }
 .tree li a img {
 	width: 100px;
@@ -189,7 +186,7 @@ header{
 .tree li a span {
 	border-radius: 5px;
 	color: #666;
-	padding: 8px;
+	padding: 15px;
 	font-size: 12px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -198,7 +195,8 @@ header{
 
 #designation{
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 3px;  
+	font-size: 15px;
 }
 
 /*Hover-Section*/
@@ -219,10 +217,6 @@ header{
 
 h2{
   text-align: center;
-}
-
-#topics{
-  font-family: 'Poppins', sans-serif;
 }
 
 #container-holder{
