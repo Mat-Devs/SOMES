@@ -211,11 +211,12 @@ header{
 
 .container-1 .container-2 .container-3 .container-4{  
   width:48vw;
-  height:100vh;
+  height:100vh;  
+  margin: 5vh 0 5vh 0 ;
 }
 
 
-h2{
+h1, h2{
   text-align: center;
 }
 
