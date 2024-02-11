@@ -7,6 +7,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   /* width: 100vmin; */
   background-color: #c8c8f1;
@@ -107,7 +111,8 @@ header{
 .tree {
 	width: 100%;
 	height: auto;
-	text-align: center;  
+	text-align: center; 
+  scroll-behavior: smooth; 
 }
 
 .tree ul {
