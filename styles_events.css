@@ -72,23 +72,20 @@ align-items: center;
 #about{
   transition-duration: 0.2s;
 }
+
 #contact{
   transition-duration: 0.2s;
 }
 .nav-bar #home:hover {
-  margin-top: -0.5vh;
   transition-duration: 0.2s;
 }
 .nav-bar #academics:hover {
-  margin-top: -0.5vh;
   transition-duration: 0.2s;
 }
 .nav-bar #about:hover {
-  margin-top: -0.5vh;
   transition-duration: 0.2s;
 }
 .nav-bar #contact:hover {
-  margin-top: -0.5vh;
   transition-duration: 0.2s;
 }
 
@@ -97,26 +94,34 @@ align-items: center;
   height:auto;
 }
 
-
 main {
+  background-color: #333;
+  color: #fff;
   padding: 20px;
+  text-align: center;
+  display:flex;
 }
 
-.event {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
+.event-card {
+  width:30vw;
   margin-bottom: 20px;
 }
 
-.event h2 {
-  margin-top: 0;
+.glass-morph {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
 }
 
-.event p {
+.glass-morph h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.glass-morph p {
   margin-bottom: 5px;
 }
-
 
 
 footer{
