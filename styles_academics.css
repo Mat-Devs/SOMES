@@ -38,7 +38,6 @@ padding:0 7vw ;
 .nav-bar{
 color: #ffffff;
 list-style: none;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
 position: relative;
 
 /* vertically align hack */
@@ -198,7 +197,7 @@ footer{
   text-align: center;
   color: #ffffff;
   list-style: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
   display:flex;
   font-size: 1vmin;
   letter-spacing: 0.1vw;

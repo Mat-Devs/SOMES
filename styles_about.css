@@ -27,7 +27,6 @@ header{
 
 /* Header */
 #spread-header{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   z-index: 1;
   position:sticky;
   width:84vw;
@@ -315,7 +314,6 @@ footer{
 }
 
 .footer-bar{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   z-index: 1;
   position:relative;
   width:100vw;

@@ -154,7 +154,6 @@ footer{
   top:50%;
   transform: translateY(-50%);
   font-size: 2vh;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
 }
 
@@ -206,7 +205,6 @@ footer{
 }
 
 .footer-bar{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   z-index: 1;
   position:relative;
   width:100vw;
