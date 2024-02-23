@@ -4,8 +4,19 @@
   margin:0;
   padding:0;
   text-decoration: none;   
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;  
+  animation: fade-in 0.5s;
 }
+
+@keyframes fade-in{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
 
 html{
   scroll-behavior: smooth;
@@ -357,4 +368,52 @@ footer{
   letter-spacing: 0.2vw;
 }
 
+.department-info {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.staff-member {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.role {
+  font-style: italic;
+}
+
+/* Add font awesome icon styles */
 
