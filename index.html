@@ -32,36 +32,52 @@
     </header>
 
     <div class="slider">
-        
-        <button class="btn-1" onclick="prev()"><</button>
-
         <div class="img-box">
             <img src="resources/1.png" class="slider-img" alt="img 01">
         </div>
-
-        <button class="btn-2" onclick="next()">></button>
-    </div>
-
-    <div class="news-cards">
-        <div id="news-card-1">
-            <p>News Card 01</p>
-        </div>
-        <div id="news-card-2">
-            <p>News Card 02</p>
-        </div>
-        <div id="news-card-3">
-            <p>News Card 03</p>
-        </div>
-        <div id="news-card-4">
-            <p>News Card 04</p>
-        </div>
-        <div id="news-card-5">
-            <p>News Card 05</p>
-        </div>
-        <div id="news-card-6">
-            <p>News Card 06</p>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
         </div>
     </div>
+
+    <main>
+        <section class="event-card">
+            <div class="glass-morph">
+                <img src="event1.jpg" alt="Event 1">
+                <h2>Event Title 1</h2>
+                <p>Date: January 1, 2024</p>
+                <p>Location: Venue A</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="btn">Learn More</button>
+            </div>
+        </section>
+    
+        <section class="event-card">
+            <div class="glass-morph">
+                <img src="event2.jpg" alt="Event 2">
+                <h2>Event Title 2</h2>
+                <p>Date: February 15, 2024</p>
+                <p>Location: Venue B</p>
+                <p>Description: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="btn">Learn More</button>
+            </div>
+        </section>
+
+        <section class="event-card">
+            <div class="glass-morph">
+                <img src="event3.jpg" alt="Event 3">
+                <h2>Event Title 3</h2>
+                <p>Date: February 15, 2024</p>
+                <p>Location: Venue B</p>
+                <p>Description: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="btn">Learn More</button>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div id="footer">
