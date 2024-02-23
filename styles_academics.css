@@ -107,6 +107,81 @@ align-items: center;
 }
 
 
+/* mid */
+
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, ol, li, table, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Container for the entire content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style headings */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Style paragraphs */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Style lists */
+ul, ol {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Style tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Alternate table row background color */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+
+/* footer */
+
 footer{
   z-index: 1;
   background-color:#232323;
