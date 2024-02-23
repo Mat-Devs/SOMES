@@ -94,33 +94,62 @@ align-items: center;
   height:auto;
 }
 
+body {
+  background-color: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
 main {
   color: #000000;
   padding: 20px;
   text-align: center;
-  display:flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .event-card {
-  width:30vw;
-  margin-bottom: 20px;
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.event-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .glass-morph {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
-  backdrop-filter: blur(10px);
   padding: 20px;
 }
 
 .glass-morph h2 {
   margin-top: 0;
   margin-bottom: 10px;
+  font-size: 24px;
 }
 
 .glass-morph p {
   margin-bottom: 5px;
+  font-size: 16px;
 }
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
 
 
 footer{
