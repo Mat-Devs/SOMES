@@ -94,12 +94,11 @@ align-items: center;
   height:auto;
 }
 
-body {
-  background-color: #f3f4f6;
-  font-family: Arial, sans-serif;
-}
+/* events */
 
 main {
+  
+  font-family: Arial, sans-serif;
   color: #000000;
   padding: 20px;
   text-align: center;
@@ -149,6 +148,7 @@ main {
 .btn:hover {
   background-color: #45a049;
 }
+
 
 
 
