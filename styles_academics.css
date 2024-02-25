@@ -81,6 +81,7 @@ align-items: center;
 #events{
   transition-duration: 0.2s;
 }
+
 #contact{
   transition-duration: 0.2s;
 }
@@ -106,6 +107,18 @@ align-items: center;
   height:auto;
 }
 
+#programmes{
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#pro-container{
+  display: flex;
+  flex-wrap: wrap;
+  ;
+  width:100vw;
+}
 
 /* mid */
 .download-button {
@@ -129,7 +142,7 @@ align-items: center;
 
 #research-topics{
   display:flex;
-  margin: 15px 0px;
+  margin: 15px 30px;
 }
 
 /* footer */
