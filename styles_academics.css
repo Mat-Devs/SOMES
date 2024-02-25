@@ -109,15 +109,20 @@ align-items: center;
 
 #programmes{
   list-style: none;
-  margin-left: 30px;
   margin-top: 20px;
 }
 
+#programmes h2{
+  text-align: center;
+  
+}
+
 #pro-container{
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
-  ;
   width:100vw;
+  justify-content: space-evenly;
 }
 
 /* mid */
@@ -142,7 +147,7 @@ align-items: center;
 
 #research-topics{
   display:flex;
-  margin: 15px 30px;
+  margin: 15px 0px;
 }
 
 /* footer */
