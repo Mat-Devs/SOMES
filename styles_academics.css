@@ -110,20 +110,39 @@ align-items: center;
 #programmes{
   list-style: none;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 
 #programmes h2{
   text-align: center;
-  
 }
+
 
 #pro-container{
   text-align: center;
   display: flex;
-  flex-wrap: wrap;
-  width:100vw;
-  justify-content: space-evenly;
+  flex-wrap:wrap;
+  width:50vw;
+  justify-content:space-around;
+  margin: 30px auto 0 auto;
 }
+
+#pro-container div{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;  
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+
+#pro-container div:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
 
 /* mid */
 .download-button {
