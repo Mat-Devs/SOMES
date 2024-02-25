@@ -5,7 +5,7 @@ var currentSlideIndex = 0;
 var intervalId;
 
 function startSlideshow() {
-    intervalId = setInterval(next, 2000); // Change photo every 2 seconds (2000 milliseconds)
+    intervalId = setInterval(next, 3000); // Change photo every 2 seconds (2000 milliseconds)
 }
 
 function stopSlideshow() {

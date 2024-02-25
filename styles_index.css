@@ -18,10 +18,20 @@
 }
 
 body{
-/* width: 100vmin; */
-background-color: #c8c8f1;
-overflow-x: hidden;
+  height:100vmin;
+  width:100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
 }
+
+#bg-change{
+  height: 60vmin;;
+}
+
 header{
 z-index: 1;
 background-color:#131139;
@@ -216,7 +226,7 @@ footer{
   position:relative;
   top:0;
   width:100vw;
-  height:31vh;
+  height:31vmin;
 }
 
 /* #header{

@@ -22,6 +22,7 @@ body{
 background-color: #c8c8f1;
 overflow-x: hidden;
 }
+
 header{
 z-index: 1;
 background-color:#131139;
@@ -87,15 +88,22 @@ align-items: center;
   transition-duration: 0.2s;
 }
 .nav-bar #home:hover {
+  margin-top: -0.5vh;
   transition-duration: 0.2s;
 }
+
 .nav-bar #academics:hover {
+  margin-top: -0.5vh;
   transition-duration: 0.2s;
 }
+
 .nav-bar #about:hover {
+  margin-top: -0.5vh;
   transition-duration: 0.2s;
 }
+
 .nav-bar #contact:hover {
+  margin-top: -0.5vh;
   transition-duration: 0.2s;
 }
 
