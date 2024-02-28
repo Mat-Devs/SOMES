@@ -110,31 +110,26 @@ align-items: center;
 
 /* form */
 
+/* Form styling */
+
 .container {
   width: 80%;
   margin: 20px auto;
-  display: flex; /* Change to flexbox layout */
+  display: flex;
+  justify-content: space-between; /* Add space between form and animated image */
 }
 
 form {
-  max-width: 50vw;
-  /* margin-right: 20px; /* Add margin-right to create space for the image */ */
-}
-
-.animated-image {
-  flex: 1; /* This will make the animated image take up remaining space */
-  display: flex;
-  justify-content: flex-end; /* Align image to the right */
-  align-items: center; /* Center image vertically */
-}
-
-.animated-image img {
-  max-width: 100%; /* Ensure the image doesn't exceed the container */
+  max-width: 45%; /* Adjust the width of the form */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light gray background */
+  border-radius: 10px;
 }
 
 label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-weight: bold; /* Make labels bold */
 }
 
 input[type="text"],
@@ -142,7 +137,7 @@ input[type="email"],
 textarea {
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
@@ -153,16 +148,30 @@ textarea {
 }
 
 button {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  padding: 12px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Add smooth transition */
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Animated image */
+.animated-image {
+  max-width: 45%; /* Adjust the width of the animated image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-image img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
 }
 
 
