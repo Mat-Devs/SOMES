@@ -25,7 +25,7 @@ overflow-x: hidden;
 
 header{
 z-index: 1;
-background-color:#131139;
+/* background-color:#131139; */
 position:sticky;
 top:0;
 width:100vw;
@@ -65,9 +65,9 @@ align-items: center;
 
 .nav-bar a{
   font-weight: 400;
-  text-shadow: #000000 0px 0px 5px;
+  /* text-shadow: #4c4c4c 0px 0px 5px; */
   text-align: right;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -144,8 +144,16 @@ textarea {
 }
 
 textarea {
-  height: 150px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: none; /* Make the textarea non-resizable */
 }
+
+
 
 button {
   background-color: #4CAF50; /* Green background */
@@ -176,130 +184,85 @@ button:hover {
 
 
 
-
 /* footer */
-footer{
+footer {
   z-index: 1;
-  background-color:#232323;
-  position:relative;
-  top:0;
-  width:100vw;
-  height:31vh;
+  background-color: #232323;
+  position: relative;
+  top: 0;
+  width: 100vw;
+  height: auto;
+  padding-bottom: 20px; /* Add some space at the bottom */
 }
 
-/* #header{
-  display: flex;
-} */
-
-.bottomline{
-  text-align:center;
-  height: 5vh;
+.bottomline {
+  text-align: center;
+  height: 50px; /* Increase the height */
   background-color: #000000;
-  width: 100vw;
-  position:absolute;
-  bottom:0;
-  z-index:1;
+  width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
-.bottomline p{
+.bottomline p {
   margin: auto;
-  width: 100vw;
-  position:absolute;
-  top:50%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
   transform: translateY(-50%);
-  font-size: 2vh;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px; /* Increase the font size */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
 }
 
-
-
-.socials{
-  z-index: 1;
-  position:sticky;
-  width:100vw;
-  align-items: center;
+.socials {
+  display: flex; /* Make social icons horizontal */
+  justify-content: center; /* Center align social icons */
 }
 
-
-#footer-socials{
-  position: relative;
-  text-align: center;
+#footer-socials a {
+  color: white;
+  font-size: 24px; /* Increase social icon size */
+  margin: 0 10px; /* Add some space between social icons */
 }
 
-#fb{
-  transition-duration: 0.2s;
-}
-#fb:hover{
-  color:#316FF6;  
-  transition-duration: 0.2s;
-}
-#ld{
-  transition-duration: 0.2s;
-}
-#ld:hover{
-  color:#0077B5;  
-  transition-duration: 0.2s;
-}
-#yt{
-  transition-duration: 0.2s;
-}
-#yt-i{
-  font-size: 4vmin;
-}
-
-#yt:hover{
-  color:#CD201F;  
-  transition-duration: 0.2s;
-}
-
-#footer-socials a{
-  color:white;
-  font-size:4vmin;
-  padding: 0vw 0.7vw;
-}
-
-.footer-bar{
+.footer-bar {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   z-index: 1;
-  position:relative;
-  width:100vw;
-  height:12vh;
-  padding-top:3%;
+  position: relative;
+  width: 100%;
+  padding-top: 20px; /* Add some space at the top */
+  padding-bottom: 10px; /* Add some space at the bottom */
 }
 
-#footer-bar p{
-  color:#ffffff;
-  font-size:2.1vmin;
-  margin:0;
+#footer-bar p {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
 }
 
-#footer-bar{
+#footer-bar {
   text-align: center;
   color: #ffffff;
   list-style: none;
-
-  display:flex;
-  font-size: 1vmin;
-  letter-spacing: 0.1vw;
-  justify-content: center;
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 1px; /* Increase letter spacing */
+  justify-content: space-around; /* Evenly space the sections */
 }
 
-#footer-bar div{
-  width:26vw;
-  text-align: center;
+#footer-bar div {
+  width: 25%; /* Adjust width to accommodate more details */
 }
 
-#footer-bar div p{
-  display:flexbox;
-  position:relative;  
-  width:26vw;
-  word-break:break-all;
+#footer-bar div p {
+  display: flexbox;
+  position: relative;
+  width: 100%;
+  word-break: break-all;
 }
 
-
-.uppercase-p{
-  text-transform:uppercase;
-  padding-bottom: 1vh;
-  letter-spacing: 0.2vw;
+.uppercase-p {
+  text-transform: uppercase;
+  padding-bottom: 10px; /* Add some space below each section */
 }
