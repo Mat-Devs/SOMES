@@ -9,46 +9,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    
     <header>
-        
-        <div id="header">            
-            <!-- <img class="nav-bar-logo" src="resources/Somes_logo.jpg" alt="SOMES Logo"> -->
-            <div id="spread-header">
-                <a href="index.html">
-                    <div class="SOMES_Logo">
-                        <img src="resources/Somes_logo.jpg" alt="Somes logo">
-                    </div>
-                </a>
-                
-                <ul class="nav-bar">
-                    <li id="home"><a href="index.html">Home</a></li>
-                    <li id="about"><a href="about.html">About</a></li>
-                    <li id="academics"><a href="academics.html">Academics</a></li>
-                    <li id="events"><a href="events.html">Events</a></li>
-                    <li id="contact"><a href="contact.html">Contact</a></li>
+        <div class="header-container">
+            <img src="resources/Somes-whiteBG.png" class="logo" alt="Somes logo">
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-                
-            </div>
+            </nav>
         </div>
     </header>
+    
 
     <div class="container">
-        <form action="" method="post">
+        <form id="feedbackForm" action="" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
     
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input id="email" type="email" id="email" name="email" required>
     
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
     
-            <button type="submit">Submit</button>
+            <button id="submit-button" type="submit">Submit</button>
         </form>
     
         <!-- Animate image -->
         <div class="animated-image">
-            <img src="path/to/your/image.gif" alt="Animating Image">
+            <img src="resources/1.png" alt="Animating Image">
         </div>
     </div>
     
@@ -56,36 +50,33 @@
 
 
     <footer>
-        <div id="footer">
-    
-            <div class="footer-bar">
-                <ul id="footer-bar">
-                    <div>
-                        <p class="uppercase-p">Contact</p>
-                        <p>+94123456789</p>
-                    </div>
-                    <div>
-                        <p class="uppercase-p">Email</p>
-                        <p>somes@gmail.com</p>
-                    </div>
-                    <div>
-                        <p class="uppercase-p">Address</p>
-                        <p>123 Main Street, Cityville, Country</p>
-                    </div>
-                    <div>
-                        <p class="uppercase-p">Follow Us</p>
-                        <div class="socials">
-                            <a href="www.facebook.com"><i id="fb" class="fa fa-facebook-square"></i></a>
-                            <a href="www.youtube.com"><i id="yt" class="fa fa-youtube-play"></i></a>
-                            <a href="www.linkedin.com"><i id="ld" class="fa fa-linkedin-square"></i></a>
-                        </div>
-                    </div>
-                </ul>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>+94123456789</p>
+                <p>somes@gmail.com</p>
+                <p>123 Main Street, Cityville, Country</p>
             </div>
-    
-            <div class="bottomline">
-                <p>&copy; 2024 SOMES. All Rights Reserved.</p>
-            </div>            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="www.facebook.com"><i class="fa fa-facebook"></i></a>
+                    <a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
+                    <a href="www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+                    <a href="www.instagram.com"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form action="#" method="post">
+                    <input id="sub-email" type="email" name="email" placeholder="Your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="bottomline">
+            <p>&copy; 2024 SOMES. All Rights Reserved.</p>
         </div>
     </footer>
-    
+</body>
+</html>
