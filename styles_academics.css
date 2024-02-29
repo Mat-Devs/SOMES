@@ -24,7 +24,7 @@ overflow-x: hidden;
 }
 header{
 z-index: 1;
-background-color:#131139;
+/* background-color:#131139; */
 position:sticky;
 top:0;
 width:100vw;
@@ -64,9 +64,9 @@ align-items: center;
 
 .nav-bar a{
   font-weight: 400;
-  text-shadow: #000000 0px 0px 5px;
+  /* text-shadow: #4c4c4c 0px 0px 5px; */
   text-align: right;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
