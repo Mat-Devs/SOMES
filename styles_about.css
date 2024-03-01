@@ -45,7 +45,7 @@ header {
   justify-content: space-between;
   
   align-items: center;
-  max-width: 1400px;
+  max-width: 80vw;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -65,7 +65,7 @@ nav ul.menu {
 }
 
 nav ul.menu li {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 nav ul.menu li a {
