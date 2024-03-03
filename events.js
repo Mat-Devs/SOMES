@@ -1,6 +1,6 @@
 var slider_img = document.querySelector('.slider-img');
 var dots = document.querySelectorAll('.dot');
-var images = ['1.png', '2.png', '3.png', '4.png', '5.png'];
+var images = ['1.jpg', '2.jpeg', '3.jpeg', '4.jpeg', '5.png'];
 var currentSlideIndex = 0;
 var intervalId;
 

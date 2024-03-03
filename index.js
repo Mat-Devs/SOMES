@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var images = ["resources/1.png","resources/2.png", "resources/3.png", "resources/4.png", "resources/5.png"]; // Add your image URLs here
+    var images = ["resources/1.jpg","resources/2.jpeg", "resources/3.jpeg", "resources/4.jpeg", "resources/5.png"]; // Add your image URLs here
     var currentIndex = 0;
   
     function changeBackground() {
