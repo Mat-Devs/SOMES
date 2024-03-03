@@ -87,6 +87,14 @@ nav ul.menu li a:hover {
   box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
   border-radius: 30px;
+  display:flex;
+}
+
+.glass-morph img{
+  width:80vw;
+  height:80vh;
+  border-radius: 30px;
+  filter: blur(3px);
 }
 
 .main-card:hover{  
