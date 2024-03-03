@@ -84,9 +84,13 @@ nav ul.menu li a:hover {
   width: 80vw;
   height:80vh;
   margin:50px auto;
-  box-shadow: 16px 16px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
   border-radius: 30px;
+}
+
+.main-card:hover{  
+  box-shadow: 16px 16px 0px rgba(0, 0, 0, 0.4);
 }
 
 /* Newsletter Form */
@@ -111,3 +115,48 @@ form button:hover {
   background-color: #dddddd;
 }
 
+
+
+/* Footer */
+footer {
+  background-color: #232323;
+  color: #ffffff;
+  padding: 50px 0 15px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  max-width: 300px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.bottomline {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.bottomline p {
+  margin: 0;
+}

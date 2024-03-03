@@ -73,6 +73,8 @@ nav ul.menu li a:hover {
   color: #555555;
 }
 
+/* UG programmes */
+
 #programmes{
   list-style: none;
   margin-top: 20px;
@@ -88,51 +90,38 @@ nav ul.menu li a:hover {
   text-align: center;
   display: flex;
   flex-wrap:wrap;
-  width:50vw;
+  width:70vw;
   justify-content:space-around;
   margin: 30px auto 0 auto;
 }
 
 #pro-container div{
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;  
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 30px;
 }
 
 
 #pro-container div:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 16px 16px 0px rgba(0, 0, 0, 0.3);
 }
 
 
 
 
 /* mid */
-.download-button {
-  background-color: #80ed94; 
-  border: none;
-  padding: 4px 6px;
-  margin: 0px 10px;
-  transition-duration: 0.2s;
-  cursor: pointer;
-  border-radius: 3px;
-}
 
-.download-button:hover {
-  background-color: #34d722;
-}
-
-.download-button img {
-  width: 14px; 
-  height: 14px; 
+#research-holder{
+  width:100vw;
+  
 }
 
 #research-topics{
   display:flex;
-  margin: 15px 0px;
+  margin: 15px auto;
 }
 
 /* Footer */
@@ -166,7 +155,7 @@ footer {
 .social-icons a {
   color: #ffffff;
   font-size: 24px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .bottomline {
