@@ -23,8 +23,6 @@ html{
 }
 
 body{
-  /* width: 100vmin; */
-  background-color: #c8c8f1;
   overflow-x: hidden;
 }
 
@@ -42,10 +40,9 @@ header {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-between;  
   align-items: center;
-  max-width: 80vw;
+  max-width: 100vw;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -111,7 +108,6 @@ nav ul.menu li a:hover {
 	top: 0;
 	right: 50%;
 	border-top: 3px solid #ccc;
-	width: 51%;
 	height: 10px;
 }
 .tree li::after {
@@ -168,7 +164,7 @@ nav ul.menu li a:hover {
 .tree li a span {
 	border-radius: 5px;
 	color: #666;
-	padding: 15px;
+	padding: 10px 15px 0px 15px; 
 	font-size: 12px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -180,6 +176,106 @@ nav ul.menu li a:hover {
   text-underline-offset: 3px;  
 	font-size: 15px;
 }
+
+/* news-cards */
+
+main {
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.event-card {
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.event-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.glass-morph {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.glass-morph h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.glass-morph p {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #232323;
+  color: #ffffff;
+  padding: 50px 0 15px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  max-width: 300px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.bottomline {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.bottomline p {
+  margin: 0;
+}
+
 
 /*Hover-Section*/
 .tree li a:hover, .tree li a:hover i, .tree li a:hover+ul li a {
@@ -207,6 +303,16 @@ h1, h2{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+.container-1, .container-2, .container-3, .container-4 {
+  width:100vw;
+}
+
+.fake-space{
+  height: 100px;
+  width: auto;
+}
+
 
 
 /* Footer */
