@@ -199,7 +199,7 @@ h1, h2{
 
 /*Hover-Section*/
 .tree li a:hover, .tree li a:hover i, .tree li a:hover+ul li a {
-	background: #cfcfcf;
+	background: #e6e6e6;
 }
 .tree li a+ul li::after, .tree li a+ul li::before, .tree li a+ul::before, .tree li a+ul ul::before {
   border-color: #94a0b4;
