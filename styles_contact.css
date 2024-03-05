@@ -77,14 +77,15 @@ nav ul.menu li a:hover {
 /* Form styling */
 
 .container {
-  width: 100vw;
-  margin: 20px auto;
+  width: 90vw;
+  margin: 50px auto ;
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-evenly; 
 }
 
 #feedbackForm {
-  min-width: 30vw;
+  min-width: 35vw;
   padding: 20px;
   border-radius: 10px;
 }
