@@ -108,6 +108,7 @@ textarea {
 
 textarea {
   width: 100%;
+  height:30vh;
   padding: 10px;
   margin-bottom: 15px;
   /* border: 1px solid #ccc; */
@@ -134,7 +135,8 @@ textarea {
 }
 
 .animated-image {
-  max-width: 60%; 
+  background-color: beige;
+  width: 40vw; 
   display: flex;
   justify-content: center;
   align-items: center;
