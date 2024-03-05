@@ -111,7 +111,7 @@ textarea {
   width: 100%;
   height:30vh;
   padding: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   /* border: 1px solid #ccc; */
   border-radius: 5px;
   box-sizing: border-box;
@@ -132,7 +132,7 @@ textarea {
 }
 
 #submit-button:hover {
-  background-color: #45a049;
+  background-color: #3c9040;
 }
 
 .animated-image {
