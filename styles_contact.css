@@ -97,7 +97,7 @@ label {
 }
 
 input[type="text"],
-#email,
+#email
 textarea {
   width: 100%;
   padding: 10px;
