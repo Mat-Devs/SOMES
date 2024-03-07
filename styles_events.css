@@ -134,20 +134,23 @@ main {
 }
 
 .event-card {
-  width: 300px;
+  width: 80vw;
   margin: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
 }
 
 .event-card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 16px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .glass-morph {
   background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 20px;
+  padding: 20px;  
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .glass-morph h2 {
