@@ -137,7 +137,7 @@ main {
   text-align: left;
   width: 80vw;
   margin: 50px;
-  border-radius: 10px;
+  border-radius: 30px;
   box-shadow: -8px 8px 0px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
 }
@@ -146,33 +146,35 @@ main {
   text-align: right;
   width: 80vw;
   margin: 50px;
-  border-radius: 10px;
+  border-radius: 30px;
   box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
 }
 
 .event-card-odd:hover{
-  box-shadow: -16px 16px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: -16px 16px 0px rgba(0, 0, 0, 0.3);
 }
 
 .event-card-even:hover{
-  box-shadow: 16px 16px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 16px 16px 0px rgba(0, 0, 0, 0.3);
 }
 
 .glass-morph-odd {
   justify-content: left;
   background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 20px;
+  border-radius: 30px;
   display: flex;
   flex-wrap: wrap;
+  padding: 10px;
 }
 
 .glass-morph-even {
   justify-content: right;
   background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 20px;
+  border-radius: 30px;
   display: flex;
   flex-wrap: wrap;
+  padding: 10px;
 }
 
 .glass-morph-odd h2, .glass-morph-even h2 {
@@ -221,7 +223,7 @@ footer {
   background-color: #232323;
   color: #ffffff;
   padding: 50px 0 15px 0;
-}
+} 
 
 .footer-container {
   display: flex;
