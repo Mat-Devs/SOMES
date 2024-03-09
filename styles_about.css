@@ -197,12 +197,13 @@ h1, h2{
   width: auto;
 }
 
-/*Hover-Section*/
+/*Hover-Section*/ 
 .tree li a:hover, .tree li a:hover i, .tree li a:hover+ul li a {
-	background: #e6e6e6;
+	transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
 }
 .tree li a+ul li::after, .tree li a+ul li::before, .tree li a+ul::before, .tree li a+ul ul::before {
-  border-color: #94a0b4;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 
