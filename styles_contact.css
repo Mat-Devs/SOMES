@@ -101,8 +101,8 @@ textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
   box-sizing: border-box;
 }
 
@@ -111,10 +111,12 @@ textarea {
   height:30vh;
   padding: 10px;
   margin-bottom: 25px;
-  /* border: 1px solid #ccc; */
-  border-radius: 5px;
-  box-sizing: border-box;
-  resize: none; /* Make the textarea non-resizable */
+  border-top: 0px solid #ccc;
+  border-left: 0px solid #ccc;
+  border-right: 0px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+  resize: none; 
 }
 
 
@@ -135,7 +137,7 @@ textarea {
 }
 
 .animated-image {
-  background-color: beige;
+  /* background-color: beige; */
   width: 40vw; 
   display: flex;
   justify-content: center;
