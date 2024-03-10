@@ -80,24 +80,38 @@ nav ul.menu li a:hover {
   color: #555555;
 }
 
-.main-card{
-  width: 80vw;
-  height:80vh;
-  margin:50px auto;
-  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease-in-out;
-  border-radius: 30px;
-  display:flex;
+.main-card {
+  margin: 50px auto 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.glass-morph img{
-  width:80vw;
-  height:80vh;
+.image-container {
+  position: relative;
+}
+
+.image-container h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  text-shadow: 5px 5px 3px rgb(255, 255, 255);
+  text-align: center;
+  font-size: 52px;
+}
+
+.glass-morph img {
+  width: 1300px;
+  height: auto;
   border-radius: 30px;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.1);
   filter: blur(3px);
 }
 
-.main-card:hover{  
+.glass-morph img:hover{  
   box-shadow: 16px 16px 0px rgba(0, 0, 0, 0.4);
 }
 
