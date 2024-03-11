@@ -104,6 +104,7 @@ nav ul.menu li a:hover {
 
 .glass-morph img {
   width: 1300px;
+  max-width:80vw;
   height: auto;
   border-radius: 30px;
   transition: box-shadow 0.3s ease-in-out;
