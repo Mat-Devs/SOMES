@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+ 
 *{
   margin:0;
   padding:0;
@@ -72,6 +72,113 @@ nav ul.menu li a {
 nav ul.menu li a:hover {
   color: #555555;
 }
+
+#topics{
+  width:100vw;
+  text-align: center;
+  margin-top: 3vw;
+}
+
+#topics h2{
+  text-transform: uppercase;
+}
+
+#topics p{
+  margin-top: 1vw;
+}
+
+main {
+  color: #000000;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top:0;
+}
+
+.person-card-odd {
+  text-align: left;
+  width: 80vw;
+  margin: 50px;
+  border-radius: 30px;
+  /* box-shadow: -8px 8px 0px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out; */
+}
+
+.person-card-even {
+  text-align: right;
+  width: 80vw;
+  margin: 50px;
+  border-radius: 30px;
+  /* box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.1); */
+  /* transition: box-shadow 0.3s ease-in-out; */
+}
+
+/* .person-card-odd:hover{
+  box-shadow: -16px 16px 0px rgba(0, 0, 0, 0.3);
+}
+
+.person-card-even:hover{
+  box-shadow: 16px 16px 0px rgba(0, 0, 0, 0.3);
+} */
+
+.glass-morph-odd {
+  justify-content: left;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.glass-morph-even {
+  justify-content: right;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.glass-morph-odd h2, .glass-morph-even h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.glass-morph-odd p, .glass-morph-even p {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top:15px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.event-img{
+  width:12vw;
+  height: 25vh;
+  margin: 20px 80px 20px 80px;
+  border-radius: 10px ;
+
+}
+
+#descript{
+  margin:auto 20px;
+}
+
+
 
 /* UG programmes */
 
