@@ -2,7 +2,7 @@
 
 *{
   margin:0;
-  padding:0;
+  padding:0; 
   text-decoration: none;   
   font-family: 'Poppins', sans-serif;
   animation: fade-in 0.5s;
@@ -118,8 +118,6 @@ nav ul.menu li a:hover {
 .active {
   background-color: #333;
 }
-
-
 
 
 /* events */

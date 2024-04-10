@@ -79,7 +79,7 @@ nav ul.menu li a:hover {
 
 /* tree */
 .container{
-  margin: 5vh 0 5vh 0 ;
+  margin: 2vh 0 2vh 0 ;
 }
 
 .tree {
@@ -90,7 +90,7 @@ nav ul.menu li a:hover {
 }
 
 .tree ul {
-	padding-top: 20px;
+	padding-top: 30px;
 	position: relative;
 	transition: .2s;
 }
@@ -189,10 +189,11 @@ h1, h2{
   display:flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 20vh;
 }
 
 .fake-space{
-  height: 92px;
+  height: 15vh;
   width: auto;
 }
 
@@ -288,7 +289,7 @@ form button:hover {
 }
 
 .Vision{
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 h2 {
