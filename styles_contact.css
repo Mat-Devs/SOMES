@@ -19,11 +19,12 @@
 
 body{
 overflow-x: hidden;
+background-color: rgb(44, 194, 169, 0.9);
 }
 
 /* Header */
 header {
-  background-color: rgba(255, 255, 255, 0.3); 
+  background-color: rgb(44, 194, 169, 0.1);
   backdrop-filter: blur(10px);
   padding: 20px 0;
   position: sticky;
@@ -31,6 +32,7 @@ header {
   left: 0;
   right: 0;
   z-index: 1000;
+  font-size: larger;
 }
 
 .header-container {
@@ -98,11 +100,15 @@ label {
 input[type="text"],
 #email,
 textarea {
+  background-color: rgba(226, 223, 223, 0.4);
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #ccc;
-  border-radius: 0px;
+  border-top: 0px solid rgba(204, 204, 204, 0);
+  border-left: 0px solid rgba(204, 204, 204, 0);
+  border-right: 0px solid rgba(204, 204, 204, 0);
+  border-bottom: 1px solid rgba(204, 204, 204, 0);
+  border-radius: 15px;
   box-sizing: border-box;
 }
 
@@ -111,29 +117,31 @@ textarea {
   height:30vh;
   padding: 10px;
   margin-bottom: 25px;
-  border-top: 0px solid #ccc;
-  border-left: 0px solid #ccc;
-  border-right: 0px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  border-radius: 0px;
+  border-top: 0px solid rgba(204, 204, 204, 0);
+  border-left: 0px solid rgba(204, 204, 204, 0);
+  border-right: 0px solid rgba(204, 204, 204, 0);
+  border-bottom: 1px solid rgba(204, 204, 204, 0);
+  border-radius: 15px;
   resize: none; 
 }
 
 
 
 #submit-button {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #00f815cb;
+  color: rgb(0, 0, 0);
   padding: 12px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s; 
+  box-shadow:2px 2px 2px black; 
 }
 
 #submit-button:hover {
-  background-color: #3c9040;
+  translate: 1px 1px;
+  box-shadow:0px 0px 1px black; 
 }
 
 .animated-image {
